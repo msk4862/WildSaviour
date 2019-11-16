@@ -1779,7 +1779,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>
@@ -3092,43 +3092,45 @@ public final class R {
     public static final int daterec=0x7f06007a;
     public static final int deatailsofcrime=0x7f06007b;
     public static final int details=0x7f06007c;
-    public static final int googleg_disabled_color_18=0x7f06007d;
-    public static final int googleg_standard_color_18=0x7f06007e;
-    public static final int ic_launcher_background=0x7f06007f;
-    public static final int ic_launcher_foreground=0x7f060080;
-    public static final int ic_menu_add=0x7f060081;
-    public static final int ic_solved=0x7f060082;
-    public static final int launcherbg=0x7f060083;
-    public static final int newcamera=0x7f060084;
-    public static final int notification_action_background=0x7f060085;
-    public static final int notification_bg=0x7f060086;
-    public static final int notification_bg_low=0x7f060087;
-    public static final int notification_bg_low_normal=0x7f060088;
-    public static final int notification_bg_low_pressed=0x7f060089;
-    public static final int notification_bg_normal=0x7f06008a;
-    public static final int notification_bg_normal_pressed=0x7f06008b;
-    public static final int notification_icon_background=0x7f06008c;
-    public static final int notification_template_icon_bg=0x7f06008d;
-    public static final int notification_template_icon_low_bg=0x7f06008e;
-    public static final int notification_tile_bg=0x7f06008f;
-    public static final int notify_panel_notification_icon_bg=0x7f060090;
-    public static final int panda_bear=0x7f060091;
-    public static final int path=0x7f060092;
-    public static final int photo=0x7f060093;
-    public static final int plus=0x7f060094;
-    public static final int plus1=0x7f060095;
-    public static final int plus_add_green=0x7f060096;
-    public static final int slider1=0x7f060097;
-    public static final int slider2=0x7f060098;
-    public static final int slider3=0x7f060099;
-    public static final int spl=0x7f06009a;
-    public static final int splash=0x7f06009b;
-    public static final int splashme=0x7f06009c;
-    public static final int status=0x7f06009d;
-    public static final int tiger=0x7f06009e;
-    public static final int title=0x7f06009f;
-    public static final int tooltip_frame_dark=0x7f0600a0;
-    public static final int tooltip_frame_light=0x7f0600a1;
+    public static final int elephant=0x7f06007d;
+    public static final int googleg_disabled_color_18=0x7f06007e;
+    public static final int googleg_standard_color_18=0x7f06007f;
+    public static final int ic_launcher_background=0x7f060080;
+    public static final int ic_launcher_foreground=0x7f060081;
+    public static final int ic_menu_add=0x7f060082;
+    public static final int ic_solved=0x7f060083;
+    public static final int launcherbg=0x7f060084;
+    public static final int logo=0x7f060085;
+    public static final int newcamera=0x7f060086;
+    public static final int notification_action_background=0x7f060087;
+    public static final int notification_bg=0x7f060088;
+    public static final int notification_bg_low=0x7f060089;
+    public static final int notification_bg_low_normal=0x7f06008a;
+    public static final int notification_bg_low_pressed=0x7f06008b;
+    public static final int notification_bg_normal=0x7f06008c;
+    public static final int notification_bg_normal_pressed=0x7f06008d;
+    public static final int notification_icon_background=0x7f06008e;
+    public static final int notification_template_icon_bg=0x7f06008f;
+    public static final int notification_template_icon_low_bg=0x7f060090;
+    public static final int notification_tile_bg=0x7f060091;
+    public static final int notify_panel_notification_icon_bg=0x7f060092;
+    public static final int panda_bear=0x7f060093;
+    public static final int path=0x7f060094;
+    public static final int photo=0x7f060095;
+    public static final int plus=0x7f060096;
+    public static final int plus1=0x7f060097;
+    public static final int plus_add_green=0x7f060098;
+    public static final int slider1=0x7f060099;
+    public static final int slider2=0x7f06009a;
+    public static final int slider3=0x7f06009b;
+    public static final int spl=0x7f06009c;
+    public static final int splash=0x7f06009d;
+    public static final int splashme=0x7f06009e;
+    public static final int status=0x7f06009f;
+    public static final int tiger=0x7f0600a0;
+    public static final int title=0x7f0600a1;
+    public static final int tooltip_frame_dark=0x7f0600a2;
+    public static final int tooltip_frame_light=0x7f0600a3;
   }
   public static final class id {
     public static final int ALT=0x7f070000;
@@ -3274,39 +3276,40 @@ public final class R {
     public static final int show_subtitle=0x7f07008c;
     public static final int sosbtn=0x7f07008d;
     public static final int spacer=0x7f07008e;
-    public static final int split_action_bar=0x7f07008f;
-    public static final int spread=0x7f070090;
-    public static final int spread_inside=0x7f070091;
-    public static final int src_atop=0x7f070092;
-    public static final int src_in=0x7f070093;
-    public static final int src_over=0x7f070094;
-    public static final int standard=0x7f070095;
-    public static final int start=0x7f070096;
-    public static final int submenuarrow=0x7f070097;
-    public static final int submit_area=0x7f070098;
-    public static final int tabMode=0x7f070099;
-    public static final int tag_transition_group=0x7f07009a;
-    public static final int text=0x7f07009b;
-    public static final int text2=0x7f07009c;
-    public static final int textSpacerNoButtons=0x7f07009d;
-    public static final int textSpacerNoTitle=0x7f07009e;
-    public static final int textView=0x7f07009f;
-    public static final int textView2=0x7f0700a0;
-    public static final int textView3=0x7f0700a1;
-    public static final int time=0x7f0700a2;
-    public static final int title=0x7f0700a3;
-    public static final int titleDividerNoCustom=0x7f0700a4;
-    public static final int title_template=0x7f0700a5;
-    public static final int top=0x7f0700a6;
-    public static final int topPanel=0x7f0700a7;
-    public static final int uniform=0x7f0700a8;
-    public static final int up=0x7f0700a9;
-    public static final int useLogo=0x7f0700aa;
-    public static final int viewcrimebtn=0x7f0700ab;
-    public static final int wide=0x7f0700ac;
-    public static final int withText=0x7f0700ad;
-    public static final int wrap=0x7f0700ae;
-    public static final int wrap_content=0x7f0700af;
+    public static final int spinner=0x7f07008f;
+    public static final int split_action_bar=0x7f070090;
+    public static final int spread=0x7f070091;
+    public static final int spread_inside=0x7f070092;
+    public static final int src_atop=0x7f070093;
+    public static final int src_in=0x7f070094;
+    public static final int src_over=0x7f070095;
+    public static final int standard=0x7f070096;
+    public static final int start=0x7f070097;
+    public static final int submenuarrow=0x7f070098;
+    public static final int submit_area=0x7f070099;
+    public static final int tabMode=0x7f07009a;
+    public static final int tag_transition_group=0x7f07009b;
+    public static final int text=0x7f07009c;
+    public static final int text2=0x7f07009d;
+    public static final int textSpacerNoButtons=0x7f07009e;
+    public static final int textSpacerNoTitle=0x7f07009f;
+    public static final int textView=0x7f0700a0;
+    public static final int textView2=0x7f0700a1;
+    public static final int textView3=0x7f0700a2;
+    public static final int time=0x7f0700a3;
+    public static final int title=0x7f0700a4;
+    public static final int titleDividerNoCustom=0x7f0700a5;
+    public static final int title_template=0x7f0700a6;
+    public static final int top=0x7f0700a7;
+    public static final int topPanel=0x7f0700a8;
+    public static final int uniform=0x7f0700a9;
+    public static final int up=0x7f0700aa;
+    public static final int useLogo=0x7f0700ab;
+    public static final int viewcrimebtn=0x7f0700ac;
+    public static final int wide=0x7f0700ad;
+    public static final int withText=0x7f0700ae;
+    public static final int wrap=0x7f0700af;
+    public static final int wrap_content=0x7f0700b0;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f080000;
@@ -7910,7 +7913,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>for now only direct & barriers</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>3</td><td></td></tr>
      * </table>

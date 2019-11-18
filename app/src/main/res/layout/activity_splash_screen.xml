@@ -5,35 +5,66 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SplashScreen"
-    android:background="@drawable/slider3"
+    android:background="@drawable/background"
     >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="51dp"
-        android:text="Wild \nDevengers"
-        android:textAlignment="center"
-        android:textSize="50sp" />
+    <android.support.v4.view.ViewPager
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <ImageView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/dots"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        >
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/prev"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:src="@drawable/tiger"/>
+        android:layout_marginBottom="27dp"
+        android:layout_marginStart="21dp"
+        android:background="@drawable/prev"
+        android:alpha="0.7"
+        android:visibility="invisible" />
 
-
-    <ImageView
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+    <Button
+        android:id="@+id/next"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginBottom="73dp"
-        android:layout_marginEnd="23dp"
-        android:src="@drawable/panda_bear" />
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="21dp"
+        android:layout_weight="1"
+        android:alpha="0.7"
+        android:background="@drawable/next" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="27dp"
+        android:layout_marginEnd="21dp"
+        android:layout_weight="1"
+        android:alpha="0.7"
+        android:background="@drawable/next"
+        android:visibility="invisible"/>
+
 
 
 </RelativeLayout>

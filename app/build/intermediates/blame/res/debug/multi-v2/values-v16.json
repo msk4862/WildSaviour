@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/codehead/WildSaviour/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "C:\\Users\\msk\\Desktop\\DUCS\\ZooHack\\WildSaviour\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "/home/codehead/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/acce470983c27fe6a2c6cac7815df545/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\msk\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\5f68e1934cde63fc111efc7c35258c8f\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/codehead/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/3372e6521c301bfd4f58ca36839f5da6/res/values-v16/values-v16.xml",
+                    "source": "C:\\Users\\msk\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\074c9898a84c416f6a4cf4294c5f3dca\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

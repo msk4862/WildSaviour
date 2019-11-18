@@ -31,4 +31,8 @@
         <item quantity="other">%1$d crimes</item>
     </plurals>
 
+    <string name="rew_str">
+        Congratulations! You are a \n<b>Wild Devenger</b>\n\nHere is your reward
+    </string>
+
 </resources>

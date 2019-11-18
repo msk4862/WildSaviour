@@ -9,25 +9,31 @@ import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.SmsManager;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final int MY_PERMISSIONS_REQUEST = 1;
     Button mSOSButton,mReportCrimeButton,mViewCrimesButton;
+    ImageButton rewardButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 //
-//        requestWindowFeature(Window.FEATURE_NO_TITLE);
-//        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-//                WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        requestWindowFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main);
         requestPermission();
         mSOSButton=findViewById(R.id.sosbtn);
-        mReportCrimeButton=findViewById(R.id.reportcrimebtn);
+//        mReportCrimeButton=findViewById(R.id.reportcrimebtn);
         mViewCrimesButton=findViewById(R.id.viewcrimebtn);
+        rewardButton = findViewById(R.id.reward);
 
         mViewCrimesButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,8 +57,19 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                 PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, intent,0);
                 SmsManager sms= SmsManager.getDefault();
-                sms.sendTextMessage("+919716773684", null, "this is a sample text message ", pi,null);
+                sms.sendTextMessage("+919716773684", null, "Emergency! Wildlife in danger at location \n lat:23.636231\n long: 77.343222", pi,null);
+
+                Toast.makeText(getApplicationContext(),
+                        "SENT!!", Toast.LENGTH_LONG).show();
                 return true;
+            }
+        });
+
+        rewardButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i =new Intent(MainActivity.this,RewardActivity.class);
+                startActivity(i);
             }
         });
 

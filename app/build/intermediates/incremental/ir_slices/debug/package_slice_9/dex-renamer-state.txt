@@ -1,4 +1,4 @@
-#Sat Nov 16 15:14:14 IST 2019
-base.0=/home/codehead/WildSaviour/app/build/intermediates/transforms/dexMerger/debug/26
+#Sun Nov 17 16:51:32 IST 2019
+base.0=C\:\\Users\\msk\\Desktop\\DUCS\\ZooHack\\WildSaviour\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\26
 path.0=classes.dex
 renamed.0=classes.dex

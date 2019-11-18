@@ -93,28 +93,28 @@ public class CrimeFragment extends Fragment {
             }
         });
 
-        mDateButton = v.findViewById(R.id.crime_date);
-        updateData();
-        mDateButton.setOnClickListener(new View.OnClickListener(){
+//        mDateButton = v.findViewById(R.id.crime_date);
+//        updateData();
+//        mDateButton.setOnClickListener(new View.OnClickListener(){
+//
+//            @Override
+//            public void onClick(View v) {
+//                FragmentManager manager=getFragmentManager();
+//                DatePickerFragment dialog=DatePickerFragment.newInstance(mCrime.getDate());
+//                dialog.setTargetFragment(CrimeFragment.this,REQUEST_DATE);
+//                dialog.show(manager,DIALOG_DATE);
+//            }
+//        });
 
-            @Override
-            public void onClick(View v) {
-                FragmentManager manager=getFragmentManager();
-                DatePickerFragment dialog=DatePickerFragment.newInstance(mCrime.getDate());
-                dialog.setTargetFragment(CrimeFragment.this,REQUEST_DATE);
-                dialog.show(manager,DIALOG_DATE);
-            }
-        });
-
-        mSolvedCheckbox = v.findViewById(R.id.crime_solved);
-        mSolvedCheckbox.setChecked(mCrime.isSolved());
-        mSolvedCheckbox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
-            @Override
-            public void onCheckedChanged(CompoundButton buttonView, 
-                    boolean isChecked) {
-                mCrime.setSolved(isChecked);
-            }
-        });
+//        mSolvedCheckbox = v.findViewById(R.id.crime_solved);
+//        mSolvedCheckbox.setChecked(mCrime.isSolved());
+//        mSolvedCheckbox.setOnCheckedChangeListener(new OnCheckedChangeListener() {
+//            @Override
+//            public void onCheckedChanged(CompoundButton buttonView,
+//                    boolean isChecked) {
+//                mCrime.setSolved(isChecked);
+//            }
+//        });
 
         mReportButton=v.findViewById(R.id.crime_report);
         mReportButton.setOnClickListener(new OnClickListener() {
@@ -130,15 +130,15 @@ public class CrimeFragment extends Fragment {
         });
 
         final Intent pickContact=new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
-        mSuspectButton=v.findViewById(R.id.crime_suspect);
-        mSuspectButton.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivityForResult(pickContact,REQUEST_CONTACT);
-            }
-        });
-        if(mCrime.getSuspect()!=null)
-            mSuspectButton.setText(mCrime.getSuspect());
+        //mSuspectButton=v.findViewById(R.id.crime_suspect);
+//        mSuspectButton.setOnClickListener(new OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                startActivityForResult(pickContact,REQUEST_CONTACT);
+//            }
+//        });
+//        if(mCrime.getSuspect()!=null)
+//            mSuspectButton.setText(mCrime.getSuspect());
 
         PackageManager packageManager=getActivity().getPackageManager();
         if(packageManager.resolveActivity(pickContact,PackageManager.MATCH_DEFAULT_ONLY)==null){

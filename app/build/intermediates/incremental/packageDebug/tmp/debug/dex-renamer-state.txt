@@ -1,4 +1,13 @@
-#Sat Nov 16 16:22:33 IST 2019
-base.0=/home/codehead/WildSaviour/app/build/intermediates/transforms/dexMerger/debug/33
+#Sun Nov 17 16:51:32 IST 2019
+path.3=classes.dex
+path.2=classes.dex
+path.1=classes.dex
 path.0=classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
 renamed.0=classes.dex
+base.3=C\:\\Users\\msk\\Desktop\\DUCS\\ZooHack\\WildSaviour\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
+base.2=C\:\\Users\\msk\\Desktop\\DUCS\\ZooHack\\WildSaviour\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
+base.1=C\:\\Users\\msk\\Desktop\\DUCS\\ZooHack\\WildSaviour\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\29
+base.0=C\:\\Users\\msk\\Desktop\\DUCS\\ZooHack\\WildSaviour\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\30

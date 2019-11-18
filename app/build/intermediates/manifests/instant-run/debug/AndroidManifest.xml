@@ -62,6 +62,7 @@
 
         <activity android:name="com.example.codehead.criminalintent.MainActivity" />
         <activity android:name="com.example.codehead.criminalintent.LoginActivity" />
+        <activity android:name="com.example.codehead.criminalintent.RewardActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

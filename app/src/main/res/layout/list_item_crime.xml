@@ -6,15 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:layout_margin="10dp"
-    >
+    android:background="@color/colorWhite"
 
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:layout_alignParentTop="true"
-        android:src="@drawable/crimeholder"
-     />
+    >
 
     <TextView
         android:id="@+id/crime_title"

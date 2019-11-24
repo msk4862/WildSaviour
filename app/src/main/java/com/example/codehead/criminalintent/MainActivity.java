@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent=new Intent(getApplicationContext(),MainActivity.class);
                 PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, intent,0);
                 SmsManager sms= SmsManager.getDefault();
-                sms.sendTextMessage("+919716773684", null, "Emergency! Wildlife in danger at location \n lat:23.636231\n long: 77.343222", pi,null);
+                sms.sendTextMessage("<sender_no.>", null, "Emergency! Wildlife in danger at location \n lat:23.636231\n long: 77.343222", pi,null);
 
                 Toast.makeText(getApplicationContext(),
                         "SENT!!", Toast.LENGTH_LONG).show();
